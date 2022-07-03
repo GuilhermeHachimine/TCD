@@ -132,7 +132,7 @@ private fun CategoryTabSelectedPreview() {
         CategoryTab(
             category = Categories(
                 id = 0,
-                name = "Burgers",
+                name = "Hamburguers",
                 image = ""
             ),
             selected = true,
@@ -148,7 +148,7 @@ private fun CategoryTabNotSelectedPreview() {
         CategoryTab(
             category = Categories(
                 id = 0,
-                name = "Burgers",
+                name = "Hamburguers",
                 image = ""
             ),
             selected = false,
@@ -164,7 +164,7 @@ private fun CategoryTabSelectedDarkPreview() {
         CategoryTab(
             category = Categories(
                 id = 0,
-                name = "Burgers",
+                name = "Hamburguers",
                 image = ""
             ),
             selected = true,
@@ -180,7 +180,7 @@ private fun CategoryTabNotSelectedDarkPreview() {
         CategoryTab(
             category = Categories(
                 id = 0,
-                name = "Burgers",
+                name = "Hamburguers",
                 image = ""
             ),
             selected = false,

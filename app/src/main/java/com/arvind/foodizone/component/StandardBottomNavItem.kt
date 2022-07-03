@@ -24,6 +24,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.arvind.foodizone.ui.theme.SpaceSmall
+import com.arvind.foodizone.ui.theme.colorPrimary
 import com.arvind.foodizone.ui.theme.colorRedDark
 
 @Composable
@@ -34,7 +35,7 @@ fun RowScope.StandardBottomNavItem(
     contentDescription: String? = null,
     selected: Boolean = false,
     alertCount: Int? = null,
-    selectedColor: Color = colorRedDark,
+    selectedColor: Color = colorPrimary,
     unselectedColor: Color = Color.Gray,
     enabled: Boolean = true,
     onClick: () -> Unit

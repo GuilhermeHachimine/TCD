@@ -11,6 +11,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.arvind.foodizone.model.BottomNavItem
 import com.arvind.foodizone.navigation.Screen
+import com.arvind.foodizone.ui.theme.colorPrimary
 import com.arvind.foodizone.ui.theme.colorRedDark
 import com.arvind.foodizone.ui.theme.colorWhite
 
@@ -77,7 +78,7 @@ fun StandardScaffold(
         floatingActionButton = {
             if (showBottomBar) {
                 FloatingActionButton(
-                    backgroundColor = colorRedDark,
+                    backgroundColor = colorPrimary,
                     onClick = onFabClick
                 ) {
                     Icon(

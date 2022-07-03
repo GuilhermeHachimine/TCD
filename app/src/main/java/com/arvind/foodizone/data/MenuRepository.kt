@@ -98,5 +98,5 @@ object MenuRepository {
         )
     }
 
-    fun getRandomPrice(): Double = (1..9).random() + 0.99
+    fun getRandomPrice(): Double = (1..9).random() + 5.00
 }

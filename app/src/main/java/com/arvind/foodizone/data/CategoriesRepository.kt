@@ -8,32 +8,32 @@ object CategoriesRepository {
         return listOf(
             Categories(
                 id = 1,
-                name = "Burgers",
+                name = "Hamburguers",
                 image = "https://raw.githubusercontent.com/hitanshu-dhawan/McCompose/main/app/src/main/res/drawable-nodpi/" + "category_burgers.png"
             ),
             Categories(
                 id = 2,
-                name = "Pizza",
+                name = "Pizzas",
                 image = "https://raw.githubusercontent.com/hitanshu-dhawan/McCompose/main/app/src/main/res/drawable-nodpi/" + "category_fries.png"
             ),
             Categories(
                 id = 3,
-                name = "Healthy",
+                name = "Saudavel",
                 image = "https://raw.githubusercontent.com/hitanshu-dhawan/McCompose/main/app/src/main/res/drawable-nodpi/" + "category_beverages.png"
             ),
             Categories(
                 id = 4,
-                name = "Combo Meals",
+                name = "Combo refeições",
                 image = "https://raw.githubusercontent.com/hitanshu-dhawan/McCompose/main/app/src/main/res/drawable-nodpi/" + "category_combo_meals.png"
             ),
             Categories(
                 id = 5,
-                name = "Happy Meals",
+                name = "Refeições",
                 image = "https://raw.githubusercontent.com/hitanshu-dhawan/McCompose/main/app/src/main/res/drawable-nodpi/" + "category_happy_meals.png"
             ),
             Categories(
                 id = 6,
-                name = "Desserts",
+                name = "Sobremesas",
                 image = "https://raw.githubusercontent.com/hitanshu-dhawan/McCompose/main/app/src/main/res/drawable-nodpi/" + "category_desserts.png"
             )
         )
